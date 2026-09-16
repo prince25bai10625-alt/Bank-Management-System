@@ -1,86 +1,114 @@
-Bank Management System
+🏦 Bank Management System
 
-A simple console-based Bank Management System built using Java. This project demonstrates basic Object-Oriented Programming concepts through common banking operations.
+A simple console-based Bank Management System built using Java.
+This project demonstrates fundamental Object-Oriented Programming (OOP) concepts by implementing common banking operations through a simple menu-driven interface.
 
-Features
+✨ Features
 
-Create a bank account
+🏦 Create a bank account
 
-Deposit money
+💰 Deposit money
 
-Withdraw money
+💸 Withdraw money
 
-Check account balance
+💳 Check account balance
 
-Display account details
+👤 Display account details
 
-Validate transactions
+✅ Validate transactions
 
-Prevent withdrawal with insufficient balance
+🚫 Prevent withdrawal with insufficient balance
 
-Simple menu-driven interface
+📋 Simple menu-driven interface
 
-Technologies Used
+🔐 Basic account validation
 
-Java
+👤 Supports one account per session
 
-Object-Oriented Programming (OOP)
+🛠️ Technologies Used
+Technology	Purpose
+☕ Java	Core programming language
+🧩 OOP	Object-oriented design
+⌨️ Scanner	User input
+🔀 Switch-Case	Menu handling
+🔄 Do-While Loop	Continuous menu execution
+🧠 Conditional Statements	Transaction validation
+🧠 OOP Concepts Demonstrated
 
-Scanner
+This project is designed to demonstrate several important Java and OOP concepts.
 
-Switch-Case
+📦 Class & Object
 
-Do-While Loop
+BankAccount represents a bank account and contains its related properties and operations.
 
-OOP Concepts
+🏗️ Constructor
 
-This project demonstrates the following Java concepts:
+A constructor is used to initialize account information when a new account is created.
 
-Class & Object — BankAccount represents a bank account.
+🔒 Encapsulation
 
-Constructor — Initializes account details.
+Account information is stored using private variables, providing controlled access through methods.
 
-Encapsulation — Account information is stored using private variables.
+⚙️ Methods
 
-Methods — Separate methods handle deposit, withdrawal, balance checking, and account details.
+Separate methods are used to handle different banking operations, including:
 
-Conditional Statements — Used for transaction validation.
+Deposit
 
-Loops — Used to keep the menu running.
+Withdrawal
 
-Switch-Case — Used to handle menu options.
+Balance checking
 
-Project Structure
+Account details
+
+🔍 Conditional Statements
+
+Conditions are used to validate transactions and prevent invalid operations.
+
+🔄 Loops
+
+A do-while loop keeps the application menu running until the user chooses to exit.
+
+🔀 Switch-Case
+
+A switch-case statement is used to process the user's menu selection.
+
+📁 Project Structure
 BankManagementSystem/
-├── BankManagementSystem.java
-└── README.md
+│
+├── 📄 BankManagementSystem.java
+└── 📄 README.md
 
-How to Run
-1. Clone the repository
+🚀 How to Run
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/BankManagementSystem.git
 
-2. Navigate to the project folder
+2️⃣ Navigate to the Project Folder
 cd BankManagementSystem
 
-3. Compile the program
+3️⃣ Compile the Program
 javac BankManagementSystem.java
 
-4. Run the program
+4️⃣ Run the Program
 java BankManagementSystem
 
-Application Menu
-================================
-       BANK MANAGEMENT SYSTEM
-================================
+🖥️ Application Menu
+========================================
+       🏦 BANK MANAGEMENT SYSTEM
+========================================
+
 1. Create Account
 2. Deposit Money
 3. Withdraw Money
 4. Check Balance
 5. Display Account Details
 6. Exit
-================================
 
-Example
+========================================
+Enter your choice:
+
+💻 Example
+Create Account
 Enter your choice: 1
 
 Enter Account Number: 12345
@@ -89,56 +117,113 @@ Enter Initial Balance: ₹5000
 
 Account created successfully!
 
+Deposit Money
 Enter your choice: 2
+
 Enter amount to deposit: ₹2000
 
 Amount deposited successfully!
 New Balance: ₹7000.0
 
-Validation
+Withdraw Money
+Enter your choice: 3
 
-The application checks that:
+Enter amount to withdraw: ₹1000
 
-Initial balance is not negative.
+Amount withdrawn successfully!
+New Balance: ₹6000.0
 
-Deposit amount is greater than zero.
+✅ Validation
 
-Withdrawal amount is greater than zero.
+The application validates the following conditions:
 
-Withdrawal amount does not exceed the available balance.
+Initial balance must not be negative.
 
-An account exists before performing transactions.
+Deposit amount must be greater than zero.
+
+Withdrawal amount must be greater than zero.
+
+Withdrawal amount must not exceed the available balance.
+
+An account must exist before performing transactions.
 
 Only one account can be created during a session.
 
-Limitations
+⚠️ Limitations
 
-This is a basic educational project. It currently does not support multiple accounts, database storage, authentication, transaction history, or money transfers. Account data is stored only while the program is running.
+This is a basic educational project and currently does not support:
 
-Future Improvements
+❌ Multiple accounts
 
-Multiple account support
+❌ Database storage
 
-User authentication
+❌ User authentication
 
-Transaction history
+❌ Transaction history
 
-Money transfer
+❌ Money transfers
 
-Database integration
+❌ Persistent account data
 
-GUI using Java Swing or JavaFX
+Account information is stored only while the program is running.
 
-File-based data storage
+🔮 Future Improvements
 
-Improved exception handling
+The project can be extended with the following features:
 
-Learning Objective
+👥 Multiple account support
+
+🔐 User authentication
+
+📜 Transaction history
+
+💸 Money transfer between accounts
+
+🗄️ Database integration
+
+🖥️ GUI using Java Swing or JavaFX
+
+📁 File-based data storage
+
+🛡️ Improved exception handling
+
+🔎 Account search functionality
+
+📊 Transaction summaries
+
+🎯 Learning Objective
 
 The main purpose of this project is to understand Java fundamentals and Object-Oriented Programming by implementing a simple real-world banking application.
 
-Author
+Through this project, you can practice:
 
-Prince raj
+Java Basics
+    ↓
+Classes & Objects
+    ↓
+Constructors
+    ↓
+Encapsulation
+    ↓
+Methods
+    ↓
+Conditional Statements
+    ↓
+Loops
+    ↓
+Switch-Case
+    ↓
+Input Validation
+
+👨‍💻 Author
+Prince Raj
 
 This project was created for educational and learning purposes.
+
+⭐ Support
+
+If you found this project useful for learning Java and OOP concepts, consider giving the repository a ⭐ Star!
+
+📌 Note
+
+This project is intended for educational purposes only and is not designed for use as a real-world banking application.
