@@ -1,59 +1,74 @@
+Bank Management System
 
-🏦 Bank Management System
-💳 A Simple Console-Based Banking Application Built with Java
+A simple console-based Bank Management System built using Java. This project demonstrates basic Object-Oriented Programming concepts through common banking operations.
 
-📌 About The Project
+Features
 
-The Bank Management System is a simple console-based application developed using Java. It allows users to create a bank account and perform basic banking operations such as depositing money, withdrawing money, checking balance, and viewing account details.
+Create a bank account
 
-The project focuses on applying fundamental Java and OOP concepts in a practical application.
+Deposit money
 
-✨ Features
-<table> <tr> <td>🏦 <b>Create Account</b><br>Create a new bank account with account number, name, and initial balance.</td> <td>💰 <b>Deposit Money</b><br>Add money to the existing account balance.</td> </tr> <tr> <td>💸 <b>Withdraw Money</b><br>Withdraw money while checking available balance.</td> <td>💳 <b>Check Balance</b><br>View the current account balance.</td> </tr> <tr> <td>👤 <b>Account Details</b><br>Display account number, holder name, and balance.</td> <td>🛡️ <b>Validation</b><br>Prevents invalid amounts and insufficient-balance withdrawals.</td> </tr> </table>
-🛠️ Technologies Used
-Technology	Usage
-☕ Java	Core programming language
-📦 OOP	Classes, objects, constructors & encapsulation
-⌨️ Scanner	User input
-🔀 Switch-Case	Menu selection
-🔄 Do-While	Continuous menu execution
-🧠 OOP Concepts Demonstrated
-┌──────────────────────────────────────────┐
-│           OBJECT-ORIENTED JAVA           │
-├──────────────────────────────────────────┤
-│  📦 Class        → BankAccount          │
-│  🧑 Object       → BankAccount object   │
-│  🏗️ Constructor  → Initialize account  │
-│  🔒 Encapsulation → Private variables   │
-│  ⚙️ Methods      → Banking operations   │
-└──────────────────────────────────────────┘
+Withdraw money
 
-📋 Application Menu
-╔════════════════════════════════════╗
-║      🏦 BANK MANAGEMENT SYSTEM     ║
-╠════════════════════════════════════╣
-║  1. Create Account                 ║
-║  2. Deposit Money                  ║
-║  3. Withdraw Money                 ║
-║  4. Check Balance                  ║
-║  5. Display Account Details        ║
-║  6. Exit                           ║
-╚════════════════════════════════════╝
+Check account balance
 
-🚀 How To Run
-1️⃣ Clone the Repository
+Display account details
+
+Validate transactions
+
+Prevent withdrawal with insufficient balance
+
+Simple menu-driven interface
+
+Technologies Used
+
+Java
+
+Object-Oriented Programming (OOP)
+
+Scanner
+
+Switch-Case
+
+Do-While Loop
+
+OOP Concepts
+
+This project demonstrates the following Java concepts:
+
+Class & Object — BankAccount represents a bank account.
+
+Constructor — Initializes account details.
+
+Encapsulation — Account information is stored using private variables.
+
+Methods — Separate methods handle deposit, withdrawal, balance checking, and account details.
+
+Conditional Statements — Used for transaction validation.
+
+Loops — Used to keep the menu running.
+
+Switch-Case — Used to handle menu options.
+
+Project Structure
+BankManagementSystem/
+├── BankManagementSystem.java
+└── README.md
+
+How to Run
+1. Clone the repository
 git clone https://github.com/your-username/BankManagementSystem.git
 
-2️⃣ Open the Project
+2. Navigate to the project folder
 cd BankManagementSystem
 
-3️⃣ Compile the Program
+3. Compile the program
 javac BankManagementSystem.java
 
-4️⃣ Run the Application
+4. Run the program
 java BankManagementSystem
 
-💻 Example Output
+Application Menu
 ================================
        BANK MANAGEMENT SYSTEM
 ================================
@@ -65,6 +80,7 @@ java BankManagementSystem
 6. Exit
 ================================
 
+Example
 Enter your choice: 1
 
 Enter Account Number: 12345
@@ -73,91 +89,56 @@ Enter Initial Balance: ₹5000
 
 Account created successfully!
 
-💰 Deposit
 Enter your choice: 2
 Enter amount to deposit: ₹2000
 
 Amount deposited successfully!
 New Balance: ₹7000.0
 
-💸 Withdrawal
-Enter your choice: 3
-Enter amount to withdraw: ₹1500
+Validation
 
-Amount withdrawn successfully!
-Remaining Balance: ₹5500.0
+The application checks that:
 
-✅ Validation
-┌─────────────────────────────────────┐
-│          🛡️ VALIDATION              │
-├─────────────────────────────────────┤
-│ ✓ Initial balance cannot be negative│
-│ ✓ Deposit must be greater than 0    │
-│ ✓ Withdrawal must be greater than 0 │
-│ ✓ Insufficient balance is prevented │
-│ ✓ Account required before banking   │
-│ ✓ Only one account per session      │
-└─────────────────────────────────────┘
+Initial balance is not negative.
 
-📂 Project Structure
-📦 BankManagementSystem
- ┣ 📜 BankManagementSystem.java
- ┗ 📜 README.md
+Deposit amount is greater than zero.
 
-🔮 Future Enhancements
+Withdrawal amount is greater than zero.
 
-👥 Multiple bank accounts
+Withdrawal amount does not exceed the available balance.
 
-🔐 Login & PIN authentication
+An account exists before performing transactions.
 
-💸 Money transfer
+Only one account can be created during a session.
 
-📜 Transaction history
+Limitations
 
-🗄️ MySQL database integration
+This is a basic educational project. It currently does not support multiple accounts, database storage, authentication, transaction history, or money transfers. Account data is stored only while the program is running.
 
-💾 Permanent data storage
+Future Improvements
 
-🖥️ Java Swing / JavaFX GUI
+Multiple account support
 
-🏦 Savings and Current Account types
+User authentication
 
-⚠️ Advanced exception handling
+Transaction history
 
-🎯 Learning Objectives
+Money transfer
 
-This project helps beginners understand:
+Database integration
 
-Java Basics
-     ↓
-Classes & Objects
-     ↓
-Constructors
-     ↓
-Encapsulation
-     ↓
-Methods
-     ↓
-Loops & Conditions
-     ↓
-Switch-Case
-     ↓
-Practical OOP Application
+GUI using Java Swing or JavaFX
 
-⚠️ Limitations
+File-based data storage
 
-This is an educational console application.
-Account information is stored only in memory and will be lost when the program is closed.
+Improved exception handling
 
-👨‍💻 Author
+Learning Objective
 
-Your Name
+The main purpose of this project is to understand Java fundamentals and Object-Oriented Programming by implementing a simple real-world banking application.
 
-⭐ If you found this project useful, consider giving the repository a star!
+Author
 
-<div align="center">
-🏦 Bank Management System
+Prince raj
 
-Made with ☕ Java & ❤️
-
-</div>
+This project was created for educational and learning purposes.
